@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тұлға және дәуір — Алым Кебиров</title>
+<style>
+* { box-sizing: border-box; scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f0e5;
+  color: #292a25;
+}
+header {
+  background: #202820;
+  color: #f3d99c;
+  padding: 24px 7%;
+}
+header h1 { margin: 0 0 16px; }
+nav { display: flex; flex-wrap: wrap; gap: 18px; }
+nav a { color: white; text-decoration: none; }
+nav a:hover { color: #f3d99c; }
+.hero {
+  text-align: center;
+  color: white;
+  padding: 75px 20px;
+  background: linear-gradient(135deg, #263c31, #80663e);
+}
+.hero .label {
+  color: #f3d99c;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.hero h2 {
+  font-family: Georgia, serif;
+  font-size: clamp(34px, 6vw, 58px);
+  margin: 18px 0;
+}
+.hero p { line-height: 1.8; }
+.button {
+  display: inline-block;
+  background: #f3d99c;
+  color: #282a23;
+  padding: 13px 21px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 16px;
+}
+main { max-width: 1000px; margin: auto; padding: 22px; }
+section {
+  background: white;
+  margin: 24px 0;
+  padding: 28px;
+  border-radius: 10px;
+  border-left: 5px solid #967444;
+  box-shadow: 0 4px 16px #0000000c;
+}
+h2 { color: #70512d; font-family: Georgia, serif; }
+p { line-height: 1.85; }
+.profile {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 26px;
+  align-items: start;
+}
+.photo {
+  min-height: 290px;
+  background: #e9dfca;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: #70512d;
+}
+.photo .symbol { font-size: 64px; }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+.card {
+  background: #f7f1e6;
+  padding: 19px;
+  border-radius: 8px;
+  border-top: 3px solid #967444;
+}
+.year { color: #8a6634; font-size: 22px; font-weight: bold; }
+.source { overflow-wrap: anywhere; }
+.source a { color: #725326; }
+footer {
+  background: #202820;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+@media(max-width:650px) {
+  .profile { grid-template-columns: 1fr; }
+  section { padding: 20px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Тұлға және дәуір</h1>
+  <nav>
+    <a href="#home">Басты бет</a>
+    <a href="#person">Тарихи тұлға</a>
+    <a href="#war">Майдан жолы</a>
+    <a href="#life">Бейбіт өмір</a>
+    <a href="#legacy">Мұрасы</a>
+    <a href="#sources">Дереккөздер</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <p class="label">Цифрлық тарихи портрет</p>
+  <h2>Алым Кебиров</h2>
+  <p>Соғыс жылдарының куәгері, майдангер және еңбек ардагері</p>
+  <p>1924–2026 жылдардағы өмір жолы туралы тарихи жоба</p>
+  <a class="button" href="#person">Тарихи портретті оқу ↓</a>
+</div>
+
+<main>
+<section id="person">
+  <h2>01. Тарихи тұлға</h2>
+  <div class="profile">
+    <div class="photo">
+      <span class="symbol">📜</span>
+      <h3>Алым Кебиров</h3>
+      <p>Ардагердің фотосын осы жерге қосуға болады.</p>
+    </div>
+    <div>
+      <h3>Өмірі мен өнегесі</h3>
+      <p>
+        Алым Кебиров — Қазақстандағы Ұлы Отан соғысының
+        ардагерлерінің бірі. Ол 1924 жылы дүниеге келген.
+        Жастық шағы Екінші дүниежүзілік соғыс жылдарымен
+        тұспа-тұс келді.
+      </p>
+      <p>
+        Майданда Беларусь пен Украина аумағындағы шайқастарға
+        қатысты. Соғыстан кейін туған өлкесіне оралып,
+        ұзақ жыл еңбек етті.
+      </p>
+      <p>
+        Оның өмір жолы соғыс зардабын, бейбіт еңбектің
+        қадірін және кейінгі ұрпақ алдындағы жауапкершілікті
+        танытатын тарихи мысал болып табылады.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="war">
+  <h2>02. Майдан жолы</h2>
+  <p>
+    Соғыс жылдарында Алым Кебиров Беларусь пен Украина
+    бағытындағы майданда болған. Жарияланған өмірбаяндық
+    материалдарда оның Белгород, Киев және Львов қалаларын
+    азат етуге қатысқаны баяндалады.
+  </p>
+  <div class="cards">
+    <div class="card">
+      <h3>Беларусь майданы</h3>
+      <p>Бірінші Беларусь майданы құрамында әскери қызмет атқарғаны туралы деректер бар.</p>
+    </div>
+    <div class="card">
+      <h3>Белгород</h3>
+      <p>Қаланы азат ету шайқастарына қатысып, жараланғаны туралы жарияланымдарда айтылады.</p>
+    </div>
+    <div class="card">
+      <h3>Киев пен Львов</h3>
+      <p>Украина аумағындағы әскери операцияларға қатысқаны туралы деректер келтірілген.</p>
+    </div>
+  </div>
+</section>
+
+<section id="timeline">
+  <h2>03. Өмір жолының хронологиясы</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="year">1924</div>
+      <h3>Дүниеге келуі</h3>
+      <p>Өмірбаяндық материалдарда 1924 жылы туғаны көрсетіледі.</p>
+    </div>
+    <div class="card">
+      <div class="year">1940-жылдар</div>
+      <h3>Соғыс кезеңі</h3>
+      <p>Майданға қатысып, жараланып, емделгеннен кейін елге оралғаны баяндалады.</p>
+    </div>
+    <div class="card">
+      <div class="year">Соғыстан кейін</div>
+      <h3>Еңбек жылдары</h3>
+      <p>Туған өлкесінде ұзақ жыл еңбек етіп, отбасын тәрбиелеген.</p>
+    </div>
+    <div class="card">
+      <div class="year">Кейінгі кезең</div>
+      <h3>Ұрпаққа өнеге</h3>
+      <p>Жастарға бейбітшілікті бағалау мен адал еңбек ету туралы өсиет айтқан.</p>
+    </div>
+  </div>
+  <p>
+    Ескерту: майданға шақырылған нақты жыл туралы
+    жарияланымдарда айырмашылық кездеседі. Сондықтан
+    бұл сайтта ол қосымша архивтік дерекпен нақтылануы керек.
+  </p>
+</section>
+
+<section id="life">
+  <h2>04. Бейбіт өмір және еңбек</h2>
+  <p>
+    Соғыстан кейін Алым Кебиров туған жеріне оралып,
+    жарты ғасырдан астам уақыт еңбек еткен. Жарияланған
+    деректерде оның ауыл шаруашылығында қызмет атқарғаны
+    және үлкен отбасы тәрбиелегені айтылады.
+  </p>
+  <p>
+    Оның өмірбаяны елді қалпына келтіру кезеңіндегі
+    қарапайым еңбек адамдарының үлесін де еске салады.
+    Майданнан кейінгі бейбіт өмірді бағалау — ардагер
+    ұрпағына қалдырған маңызды сабақтардың бірі.
+  </p>
+</section>
+
+<section id="legacy">
+  <h2>05. Тарихи мұрасы</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>🕊️ Бейбітшілік</h3>
+      <p>Соғыс қасіретін ұмытпай, бейбіт өмірдің құндылығын түсіну.</p>
+    </div>
+    <div class="card">
+      <h3>🤝 Еңбек</h3>
+      <p>Елге адал қызмет ету және қоғамның дамуына үлес қосу.</p>
+    </div>
+    <div class="card">
+      <h3>📚 Тарихи жады</h3>
+      <p>Ардагерлердің естеліктерін жинау және келер ұрпаққа жеткізу.</p>
+    </div>
+  </div>
+</section>
+
+<section id="sources">
+  <h2>06. Пайдаланылған дереккөздер</h2>
+  <p>Тарихи мәліметтерді тексеруге арналған жарияланымдар:</p>
+  <ul>
+    <li class="source">
+      <a href="https://24.kz/kz/zha-aly-tar/kogam/767166-almaty-oblysynda-ardager-alym-kebirov-103-zaska-tolady" target="_blank" rel="noopener noreferrer">
+        24KZ — Алым Кебиров туралы материал
+      </a>
+    </li>
+    <li class="source">
+      <a href="https://www.gov.kz/memleket/entities/qriim/press/news/details/990756" target="_blank" rel="noopener noreferrer">
+        Қазақстанның ресми мемлекеттік порталы — ардагерге құрмет көрсету
+      </a>
+    </li>
+    <li class="source">
+      <a href="https://qaradala.kz/?p=9180" target="_blank" rel="noopener noreferrer">
+        «Қарадала тынысы» — ардагердің өмірбаяны туралы материал
+      </a>
+    </li>
+  </ul>
+  <p>
+    Жоба тарихи-ағартушылық мақсатта әзірленді.
+    Нақты даталар мен марапаттарды архивтік құжаттармен
+    және бірнеше дереккөзбен салыстырып тексеру қажет.
+  </p>
+</section>
+</main>
+
+<footer>
+  <p>Тұлға және дәуір: цифрлық тарихи портрет</p>
+  <p>Алым Кебировтың өмір жолына арналған оқу жобасы</p>
+</footer>
+
+</body>
+</html>
+
+
